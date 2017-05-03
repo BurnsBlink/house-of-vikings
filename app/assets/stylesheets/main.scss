@@ -1,0 +1,237 @@
+$primary-purple: #52489C;
+$primary-grey: #393E41;
+$primary-blue: #1bb0ce;
+$primary-white: #f0f0f0;
+
+#title {
+  text-align: center;
+  font-family: 'norse';
+  font-size: 100px;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: $primary-grey;
+}
+
+#titlebelow {
+  text-align: center;
+  font-family: 'norse';
+  font-size: 80px;
+  margin-top: -80px;
+  color: $primary-grey;
+}
+
+#title-two {
+  text-align: center;
+  font-family: 'norse';
+  font-size: 80px;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: $primary-grey;
+}
+
+#titlebelow-two {
+  text-align: center;
+  font-family: 'norse';
+  font-size: 60px;
+  margin-top: -64px;
+  color: $primary-grey;
+}
+
+#home-logo {
+  margin-top: -40px;
+}
+
+.img-replace {
+  width: 22px;
+  height: 22px;
+  background: url("https://image.ibb.co/cZrTT5/HoVlogo.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+#link {
+  color: $primary-blue;
+}
+
+.sublink {
+  font-size: 11px;
+}
+
+.sublink:hover, #link:hover {
+  color: #ffc700;
+}
+
+
+body, p {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/6a/90/55/6a90550141e59305e7340b8682c9534a.jpg');
+  background-color: $primary-white;
+  background-blend-mode: screen;
+  background-position: 50% 2%;
+  background-repeat: no-repeat;
+  color: #0A0908;
+  font-weight: bold;
+  font-family: "helvetica", sans-serif;
+}
+
+h3, .media-title {
+  color: $primary-grey;
+  font-size: 35px;
+  text-align: center;
+  font-family: "baskerville", sans-serif;
+}
+
+h4 {
+  color: $primary-blue;
+  font-family: "baskerville", sans-serif;
+  font-size: 140%;
+}
+
+.location-body {
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.media-body {
+  padding: 15px;
+}
+
+#navbar {
+  display: inline-block;
+  margin: 4px 40px;
+  background-color: $primary-white;
+  color: $primary-grey;
+  border: 2px solid $primary-blue;
+  text-align: center;
+  padding: 9px;
+  font-size: 18px;
+  font-family: Century Gothic, sans-serif;
+}
+
+#navbar:hover {
+  /*background-color: $primary-blue;*/
+  color: $primary-purple;
+  border-radius: 20%;
+  box-shadow:
+        1px 1px #0A0908,
+        2px 2px #0A0908,
+        inset 0 0 0 2px $primary-grey;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.header {
+  background-color: $primary-purple;
+  margin: -9px -10px 0px -10px;
+  box-shadow:         0px 2px 5px $primary-grey;
+  height: 50px;
+}
+
+.form {
+  padding: 15px 0px 30px 0px;
+  margin: 10px 0px;
+  font-size: 40px;
+}
+
+#viking-name {
+  background-image: url('http://bestanimations.com/Nature/Storms/incredible-lightning-strike-while-driving-animated-gif.gif');
+  background-position: 50% 5%;
+  border: 1px solid $primary-blue;
+  padding: 5px 15px;
+  display: inline;
+  border-radius: 20%;
+  font-family: 'norse';
+  font-size: 60px;
+}
+
+#option {
+  padding: 5px 120px 0px 0px;
+  margin: 0px 0px 20px 0px;
+  -webkit-appearance: menulist-button;
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+}
+
+#buttongroup, #clearbutton, #gobutton {
+  display: block;
+  height: 30px;
+  width: 80px;
+}
+
+#clearbutton:hover, #gobutton:hover {
+  box-shadow: inset 0 0 0 3px $primary-purple;
+  /*-webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);*/
+}
+
+.data-hidden {
+  display: none;
+}
+
+.data-shown {
+  display: block;
+}
+
+.open-link:hover, .media-title:hover {
+  text-shadow: 0px 2px $primary-grey;
+  color: $primary-blue;
+  cursor: url('http://www.rw-designer.com/icon-image/8823-24x24x32.png'), default;
+}
+
+.media {
+  margin-bottom: 80px;
+  border-top: 2px solid $primary-blue;
+}
+
+.youtube {
+  margin-bottom: 10px;
+}
+
+#Lindisfarne {
+  background-image: url('https://danutm.files.wordpress.com/2011/08/lindisfarne_castle.jpg');
+  padding-bottom: 200px;
+  background-position: 0% 0%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
+
+#Dorestad {
+  background-image: url('https://i.ytimg.com/vi/SIttwM1k2JY/maxresdefault.jpg');
+  padding-bottom: 200px;
+  background-position: 0% 10%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
+
+#Dublin {
+  background-image: url('https://www.go-today.com/stw/images/hero-images/package-hero-images/ireland/Dublin-cityscape-dusk.jpg');
+  padding-bottom: 200px;
+  background-position: 60% 0%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
+
+#Spain {
+  background-image: url('http://i.imgur.com/JREtI5u.jpg');
+  padding-bottom: 200px;
+  background-position: 90% 15%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
+
+#Paris {
+  background-image: url('https://weaponsandwarfare.files.wordpress.com/2016/03/unnamed-5.jpg');
+  padding-bottom: 200px;
+  background-position: 20% 50%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
+
+#Luna {
+  background-image: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/1487894690/colosseum-rome-night-stars-ARENA0217.jpg?itok=1OSeTVS_');
+  padding-bottom: 200px;
+  background-position: 50% 30%;
+  margin-bottom: 40px;
+  border-bottom: 4px solid $primary-purple;
+}
