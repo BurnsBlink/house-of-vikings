@@ -15,7 +15,7 @@ class VikingName extends Component {
     this.handleNameChange = this.handleNameChange.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
-
+  // Still working on layout of this page //***********//
   // choosenSexOption(event)
   //   if (option.value === Female){
   //     firstNames = names.girlNames.join('|').toLowerCase().split('|')
