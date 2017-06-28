@@ -1,5 +1,5 @@
 ------
-house-of-vikings.herokuapp.com/
+http://house-of-vikings.herokuapp.com/
 ------
 Run on Console:
 rails s + npm start
